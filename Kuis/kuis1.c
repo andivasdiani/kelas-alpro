@@ -27,19 +27,19 @@ int main(){
         if (nilaiAkhir > 90) {
             hurufMutu = 'A';
         } else if (nilaiAkhir >= 86 && nilaiAkhir <= 90) {
-            hurufMutu = 'A-';
+            hurufMutu = 'AB';
         } else if (nilaiAkhir >= 81 && nilaiAkhir <= 85) {
-            hurufMutu = 'B+';
+            hurufMutu = 'BB';
         } else if (nilaiAkhir >= 76 && nilaiAkhir <= 80) {
             hurufMutu = 'B';
         } else if (nilaiAkhir >= 71 && nilaiAkhir <= 75) {
-            hurufMutu = 'B-';
+            hurufMutu = 'BA';
         } else if (nilaiAkhir >= 66 && nilaiAkhir <= 70) {
-            hurufMutu = 'C+';
-        } else if (nilaiAkhir >= 61 && nilaiAkhir <= 65) {
             hurufMutu = 'C';
+        } else if (nilaiAkhir >= 61 && nilaiAkhir <= 65) {
+            hurufMutu = 'CB';
         } else if (nilaiAkhir >= 56 && nilaiAkhir <= 60) {
-            hurufMutu = 'C-';
+            hurufMutu = 'CA';
         } else if (nilaiAkhir >= 46 && nilaiAkhir <= 55) {
             hurufMutu = 'D';
         } else {
